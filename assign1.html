@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="[https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap](https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap)" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #BAE1FF;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            display: flex; 
+            justify-content: center;
+            background-color: #2E5A88;
+            border-bottom: 5px solid white;
+        }
+            
+        #navbar li {
+            margin: 0 10px;    
+        }
+        
+        #navbar a {
+            text-decoration: none;
+            color: white;         
+            padding: 15px 20px;         
+            display: block;
+            font-weight: bold;
+        }
+
+        #navbar a:hover {
+            background-color: #4A90E2;
+        }
+
+        h1 {
+            font-family: 'Luckiest Guy', cursive;
+            text-align: center;
+            color: #2E5A88;
+            margin-top: 30px;
+            font-size: 3rem;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .poster {
+            height: 400px;
+            width: auto;
+            border: 8px solid white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .char-img {
+            height: 200px;
+            width: auto;
+            border: 4px solid white;
+            border-radius: 10px;
+        }
+
+        p {
+            color: #444444;
+            font-size: 1.1rem;
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        .list-container {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        ul.char-list {
+            text-align: left;
+            display: inline-block;
+            margin: 20px auto;
+            color: #2E5A88;
+            background: rgba(255, 255, 255, 0.3);
+            padding: 20px 40px;
+            border-radius: 15px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="assign1.html">Characters</a></li>
+            <li><a href="assign2.html">Movie Facts</a></li>
+            <li><a href="albums.html">Albums</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Up</h1>
+        
+        <h2>
+            <img src="poster.jpeg" class="poster" alt="Poster">
+        </h2>
+        
+        <p>
+            The story centers on an old man named Carl Fredricksen who is determined to get to South America to keep a promise he made to his wife, Ellie Fredricksen. After tying thousands of balloons to Carl's house, he is off to South America. However, Carl soon discovers a little boy named Russell is on aboard his house and the two of them set off on a bigger adventure than they had expected. <br>
+            <a href="[https://pixar.fandom.com/wiki/Up](https://pixar.fandom.com/wiki/Up)" style="color: #2E5A88; font-weight: bold;">Source: Pixar Wiki</a>
+        </p>
+        
+        <p>
+            I love this movie because the characters are as believable as any characters can be. They have tempers, problems and obsessions. They are cute and goofy and the plot is just so emotional and heart-warming.
+        </p>
+
+        <div class="image-row">
+            <img src="carl.webp" alt="Carl" class="char-img">
+            <img src="russel.webp" alt="Russell" class="char-img">
+        </div>
+        <div class="image-row">
+            <img src="dug.webp" alt="Dug" class="char-img">
+            <img src="kevin.webp" alt="Kevin" class="char-img">
+        </div>
+
+        <div class="list-container">
+            <ul class="char-list">
+                <li><strong>Carl:</strong> Used to be a balloon salesman before flying his house.</li>
+                <li><strong>Russell:</strong> Needs one more badge to become a Senior Wilderness Explorer.</li>
+                <li><strong>Dug:</strong> A Golden Retriever who uses a high-tech collar to speak English.</li>
+                <li><strong>Kevin:</strong> A rare, giant flightless bird that loves chocolate.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
