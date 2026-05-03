@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #BAE1FF;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            display: flex; 
+            justify-content: center;
+            background-color: #2E5A88;
+            border: none; /* Removes any border from the list */
+        }
+            
+        #navbar li {
+            margin: 0 10px;    
+        }
+        
+        #navbar a {
+            text-decoration: none;
+            color: white;         
+            padding: 15px 20px;         
+            display: block;
+            font-weight: bold;
+        }
+
+        #navbar a:hover {
+            background-color: #4A90E2;
+        }
+        
+        #navbar {
+            border: none; /* Removes any border from the container div */
+        }
+
+        h1 {
+            font-family: 'Luckiest Guy', cursive;
+            text-align: center;
+            color: #2E5A88;
+        }
+
+        div {
+            width: 80%;
+            background-color: #ffffff;
+            border: 5px solid #2E5A88;
+            box-shadow: 10px 10px 5px #888888;
+            border-radius: 20px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .movie-img { height: 250px; }
+    </style>
+</head>
+    
+<body>
+
+    <div id="navbar" style="border: none; box-shadow: none; background-color: transparent; width: 100%; border-radius: 0; margin: 0; padding: 0;">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="assign1.html">Characters</a></li>
+            <li><a href="assign2.html">Movie Facts</a></li>
+            <li><a href="albums.html">Albums</a></li>
+        </ul>
+    </div>
+    
+    <div>
+        <h1>The Movies</h1>
+        <img src="poster.jpeg" height="200px" style="display: block; margin: 0 auto;">
+    </div>
+
+    <div>
+        <h2>Up</h2>
+        <p>Released: 2009 | Director: Pete Docter | Production: Pixar Animation Studios</p>
+        <img src="up.jpeg" class="movie-img">
+        <p>Carl Fredricksen flies his house to South America.</p>
+    </div>
+
+    <div>
+        <h2>Dug Days</h2>
+        <p>Released: 2021 | Director: Bob Peterson | Production: Pixar</p>
+        <img src="duggy.webp" class="movie-img">
+        <p>A series of shorts showing Dug's life in the backyard.</p>
+    </div>
+
+    <div>
+        <h2>Other Movies in the Series</h2>
+        <ul style="list-style-type: none; padding: 0;">
+            <li>George & A.J. (2009) - Directed by Josh Cooley, Pixar</li>
+            <li>Carl's Date (2023) - Directed by Bob Peterson, Pixar</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
