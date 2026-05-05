@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #F9F9F9;
+        margin: 0;
+        padding: 0;
+        font-family: 'Commissioner', sans-serif;
+      }
+
+      .navbar {
+        background-color: #DA291C;
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      }
+      
+      .navbar a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+        transition: 0.3s;
+      }
+      
+      .navbar a:hover {
+        color: #FBE122;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 40px 0;
+        color: #DA291C;
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+
+      .div {
+        background: #FFFFFF;
+        width: 85%;
+        border-radius: 25px;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        transition: all 0.3s ease;
+        border-bottom: 6px solid #DA291C;
+        margin: 30px auto;
+        padding: 30px;
+      }
+
+      .div:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(218, 41, 28, 0.1);
+      }
+
+      .image-row {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin: 20px 0;
+      }
+
+      .image-row img {
+        height: 250px;
+        width: auto;
+        border-radius: 15px;
+        transition: transform 0.3s ease;
+      }
+
+      .image-row img:hover {
+        transform: scale(1.04);
+      }
+
+      h2 {
+        color: #DA291C;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 1.6;
+        color: #444;
+        font-size: 1.1em;
+      }
+
+      #record-fact {
+        background-color: #fdf2f2;
+        padding: 20px;
+        border-radius: 15px;
+        border-left: 8px solid #DA291C;
+        margin-top: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #DA291C;
+      }
+
+      .footer-ref {
+        text-align: center;
+        padding: 40px;
+        background: #F1F1F1;
+        margin-top: 40px;
+      }
+
+      .footer-ref a {
+        color: #DA291C;
+        font-weight: 600;
+        text-decoration: none;
+      }
+    </style>
+    <title>MUFC - Club Records</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="WrapUpHome.html">Home</a>
+        <a href="WrapUp2.html">The Theatre</a>
+        <a href="WrapUp3.html">History</a>
+        <a href="WrapUp4.html">Honours</a>
+        <a href="reference.html">References</a>
+    </div>
+
+    <h1>United Records</h1>
+
+    <div class="div">
+        <p style="text-align:center;">
+            <img src="celebration_mufc.jpg" height="200px" alt="United Celebration" style="border-radius: 20px;">
+        </p>
+    </div>
+
+    <div class="div">
+        <h2>Most Appearances</h2>
+        <p>This record covers all competitive first-team matches.</p>
+        <div class="image-row">
+            <img src="ryan_giggs.jpg" alt="Ryan Giggs">
+        </div>
+        <p style="text-align:center; font-weight: 700;">Ryan Giggs (1991–2014) — 963 Total Appearances</p>
+    </div>
+
+    <div class="div">
+        <h2>All-Time Top Scorer</h2>
+        <p>Goals scored across all professional competitions.</p>
+        <div class="image-row">
+            <img src="wayne_rooney.jpg" alt="Wayne Rooney">
+        </div>
+        <p style="text-align:center; font-weight: 700;">Wayne Rooney (2004–2017) — 253 Total Goals</p>
+        <div id="record-fact">Rooney surpassed the legendary Sir Bobby Charlton's long-standing record in 2017 with a stunning free-kick.</div>
+    </div>
+
+    <div class="footer-ref">
+        <a href="reference.html">Project References & Sources</a>
+    </div>
+    
+</body>
